@@ -8,9 +8,9 @@ export function createHome(){
     const head1 = document.createElement("h1");
     head1.textContent = "Where Magic Meets Flavor";
     const p1 = document.createElement("p");
-    p1.textContent = `Step inside The Enchanted Elixir Tavern, a mystical hideaway where
+    p1.textContent = `Step inside Elixir Emporium, a mystical hideaway where
         mages, adventurers, and curious souls gather to sample the finest
-        magical potions and artisanal dishes. Our tavern offers more than just
+        magical potions and artisanal dishes. Our emporium offers more than just
         nourishment – it's an experience that delights the senses and enchants
         the spirit.`;
     homeDiv.appendChild(head1);
@@ -19,7 +19,7 @@ export function createHome(){
     const head2 = document.createElement("h1");
     head2.textContent = "Our Potions and Brews";
     const p2 = document.createElement("p");
-    p2.textContent = `At the heart of The Enchanted Elixir Tavern is our collection of
+    p2.textContent = `At the heart of Elixir Emporium is our collection of
         handcrafted potions and enchanted beverages, created by master mages
         from across the realms. Whether you're seeking a boost in vitality, a
         dash of courage, or simply a drink that sparkles with otherworldly

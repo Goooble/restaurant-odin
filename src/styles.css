@@ -9,6 +9,8 @@ body{
     background-position: 0% 70%;
     background-attachment: fixed;
     align-items: center;
+    background-color: burlywood;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header{
@@ -16,6 +18,7 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: fixed;
 }
 
 svg{
@@ -52,7 +55,7 @@ nav{
     align-items: start;
     min-height: 100px;
     width: max(55%, 700px);
-    background-color: rgb(0,0,0,0.7);
+    /* background-color: rgb(0,0,0,0.7); */
 }
 
 button{
@@ -63,10 +66,10 @@ button{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     align-self: flex-start;
     height: 80px;
-
+    font-family: magicFont, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 
 }
 
@@ -79,8 +82,9 @@ button:active{
 }
 
 #content{
+    margin-top: 295px;
     width: max(55%, 700px);
-    background-color: rgb(0,0,0,0.7);
+    background-color: rgb(0,0,0,0.8);
     align-self: center;
     color: #FFFFFF;
     padding: 20px 30px;
@@ -119,4 +123,49 @@ button:active{
     font-weight: bold;
     color: #ff6200;
     font-size: 1.3rem;
+}
+
+.elixir{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+}
+
+.elixir h1{
+    color: #ff6200;
+    text-shadow: 0px -10px 30px #ff6200;
+    
+}
+
+.elixir>div{
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed #ff6200;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    gap: 20px;
+}
+
+.elixir>div>div{
+    display: flex;
+    padding: 5px;
+    margin-top: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.elixir>div>div>p{
+    width: 50%;
+    font-weight: bold;
+    color: #ff6200;
+}
+
+.elixir>div>div>.price{
+    text-shadow: 0px -10px 30px #ff6200;
+    background-color: rgb(0,0,0);
+    border-radius: 20px;
+    padding: 20px;
 }
